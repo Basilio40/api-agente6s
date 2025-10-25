@@ -2,7 +2,7 @@ import logging
 from typing import List, Tuple, Optional
 from langchain_chroma.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from src.config import Config
 
 # Configurar logging
