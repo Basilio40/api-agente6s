@@ -1,9 +1,9 @@
 Flask
 flask-cors
-langchain
-langchain-chroma
-langchain-openai
-openai
+langchain>=1.0.0
+langchain-chroma>=1.0.0
+langchain-openai>=1.0.0
+openai>=2.6.0
 chromadb
 python-dotenv
 
